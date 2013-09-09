@@ -38,7 +38,7 @@ class Watcher(object):
 
 
     def interval_cb(self, watcher, revents):
-        logging.info("Interval complete.. ")
+        logging.debug("Interval complete.. ")
         if GPIO.input(self.config['GPIO_in']):
             logging.info("Powering off")
             Popen(self.config['command'], bufsize=0, shell=False)
