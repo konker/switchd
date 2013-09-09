@@ -1,0 +1,4 @@
+python-daemon
+pyev
+RPi.GPIO
+

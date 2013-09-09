@@ -1,0 +1,10 @@
+{
+    "logfile":  "log/switchd.log",
+
+    "debug": false,
+
+    "interval_secs": 1,
+    "GPIO_in": 17,
+    "GPIO_out": 22,
+    "command": "/sbin/poweroff"
+}
